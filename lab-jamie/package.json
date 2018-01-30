@@ -1,0 +1,30 @@
+{
+  "name": "11-express",
+  "version": "1.0.0",
+  "description": "![cf](https://i.imgur.com/7v5ASc8.png) 11: Single Resource Express API ======",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlwilliams46/11-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlwilliams46/11-express/issues"
+  },
+  "homepage": "https://github.com/jlwilliams46/11-express#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
