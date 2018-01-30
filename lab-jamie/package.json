@@ -22,5 +22,8 @@
     "dotenv": "^5.0.0",
     "express": "^4.16.2",
     "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
   }
 }
