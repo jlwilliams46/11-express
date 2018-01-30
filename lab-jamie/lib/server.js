@@ -23,14 +23,14 @@ const server = module.exports = {};
 server.isOn = false;
 
 server.start = function(port, callback) {
-  debug('Server Started');
+  debug('Server started');
   if(server.isOn) return callback(new Error('Server running. Cannot start server again.'));
   server.isOn = true;
   return app.listen(port, callback);
 };
 
 server.stop = function(callback) {
-  debug('Server Stopped');
+  debug('Server stopped');
   if(!server.isOn) return callback(new Error('Server not running. You\'re dumb. Don\'t do that.'));
   server.isOn = false;
   return app.close(callback);
