@@ -5,7 +5,6 @@ const express = require('express');
 const errorHandler = require('./error-handler');
 const debug = require('debug')('http:server');
 
-
 // Application setup
 const app = express();
 const router = express.Router();
